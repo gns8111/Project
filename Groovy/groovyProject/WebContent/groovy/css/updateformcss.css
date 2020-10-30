@@ -1,0 +1,29 @@
+@charset "EUC-KR";
+.container{
+			height: 10px;
+			margin: 5px auto;
+			text-align: center;
+			line-height: 50px;
+			padding: 5px;
+		}
+		#buttonset{
+			text-align: center;
+		}
+		.updatetop{
+			margin-top: 40px;
+			text-align: center;
+		}
+		#text{
+			font-size: 14px;
+		}
+		#upload_profile{
+			margin-top: 5px;
+			margin-right: 0px;
+		}
+		#choice{
+			width: 150px;	
+			padding: 0px;
+		}
+		#gender_td{
+			height: 0px;
+		}

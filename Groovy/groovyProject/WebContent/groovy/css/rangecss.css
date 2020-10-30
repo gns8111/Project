@@ -1,0 +1,24 @@
+@charset "EUC-KR";
+.top{
+		font-size: 20px;
+		margin-top: 42px;
+		margin-left: 270px;
+	}
+	.main{
+		margin: 60px;
+		margin-left: 100px;
+		text-align: left;
+	}
+	#contents1{
+		margin-right: 67px;
+	}
+	#contents2{
+		margin-right: 45px;
+	}
+	#contents3{
+		margin-right: 83px;
+	}
+	.square .submitbutton{
+		margin-left: 330px;
+	}
+	

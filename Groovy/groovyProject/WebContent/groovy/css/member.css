@@ -1,0 +1,30 @@
+
+
+.login1 {
+	background-color: #ffff00;
+	width: 500px;
+	height: 650px;
+	margin-top: 50px;
+	border-radius: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+	
+}
+.login-title {
+  margin-bottom:30px;
+  display: block;
+  font-family: Poppins-Bold;
+  font-size: 39px;
+  color: #333333;
+  line-height: 1.2;
+  text-align: center;
+}
+
+.wrap-input100 {
+  width: 100%;
+  position: relative;
+  border-bottom: 2px solid #d9d9d9;
+}
+
+
+

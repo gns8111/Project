@@ -1,0 +1,303 @@
+* { margin:0; padding:0; list-style:none; }
+
+/* 전체 게시물의 컨테이너 */
+.containerOut {
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-right: auto;
+	margin-left: auto;
+	width: 100%;
+	text-align: center;
+	margin-top: 80px;
+}
+/* 전체 컨테이너 안의  하나의 게시물 컨테이너 */
+.container{
+	border: 2px solid gray;
+	border-radius: 5px;
+	margin: 5px;
+	align: center;
+	display: inline-block;
+	max-width: 750px;
+}
+.container img{
+	vertical-align: middle;
+}
+/* ================================ */
+
+
+/* 게시글 작성 모달부분 */
+.postCreateDiv{
+	height: 25px;
+	position: relative;
+}
+.postCreateBtn{
+	position: absolute;
+	left:50%;
+	background-color:white;
+	border: none;
+	outline: none;
+}
+
+.container-fluid {
+	border-radius: 40px;
+}
+
+nav .container-fluid {
+	border-radius: 0px;
+}
+
+h1 {
+	margin: 15px 0; /*������ 50px ���ʺ��� 0px*/
+}
+.right {
+	margin-left: 75%;
+}
+
+
+
+#imagine {
+	margin: 15px 0px;
+}
+.postheader{
+	text-align: left;
+	color: gray;
+	margin-top: 14px;
+	margin-bottom: 2px;
+	font-size: 15px;
+}
+.font label{
+	color: black;
+	margin: 3px;
+	font-size: 15px;
+	padding-left: 40px;
+	padding-right: 10px;
+}
+/* home화면의 게시물 최상위 div */
+#postcenter{
+	margin: 0 40px;
+	text-align: left;
+	font-size: 15px;
+}
+
+#view{
+	width:600px; 
+	height:680px; 
+	margin:30px auto; 
+    border:3px solid black;
+    position:relative;
+    overflow:hidden;
+}
+
+#postcenter #view{
+	height:550px;
+	width:500px;
+}
+
+#view img{
+	height: 100%;
+	width:100%;
+	display: block;
+	position: absolute;
+	margin: 0px auto;
+	
+}
+
+
+.dropbtn{
+	cursor: pointer;
+}
+.dropdown_button{
+	float: right;
+	margin-top: 16px; 
+	position: relative;
+	display: inline-block;
+}
+.dropdown-content{
+	display: none;
+	position:absolute;
+	background-color:#f9f9f9;
+	min-width:160px;
+	box-shadow:0 8px 16px 0 rgba(0,0,0,0,2);
+}
+.dropdown-content a{
+	color:black;
+	padding:12px 16px;
+	text-decoration:none;
+	display:block;
+}
+.dropdown-content:onclick{
+	display:block;
+}
+.dropdown-content a:hover{
+	background-color: #555; color:#fff
+} 
+ .dropdown:hover .dropdown-content{
+	display: block;
+} 
+
+/*������ ���� ũ��,��ġ ����*/
+#wrapper{
+	margin: 60px 0px 0px 200px;
+	width: 100%;
+	text-align: left;
+	position: absolute;
+	top: 80px;
+}
+
+#wrapper img{
+	border: 5px solid skyblue;
+	border-radius: 50%;
+	width: 180px;
+	height: 180px;
+}
+/*���� �ٸ���� ������ ����(smallpro)*/
+#smallpro{
+	border: 1px solid skyblue;
+	border-radius: 50%;
+	width: 50px;
+	height: 50px;
+}
+/*���ƿ�, ��� ������*/
+.likecommentN{
+	top: 0px;
+	text-align: left;
+	margin: 0px;
+}
+.commentmain{
+	margin-top: 5px;
+	margin-bottom: 10px;
+	text-align: left;
+	font-size:14px;
+	color: #cccccc;
+}
+.commentmain .commentpeople img{ /*�Խù� �ؿ� �ִ� ����� �� ����� �����ʻ���*/
+	border-radius: 50%;
+	border: 1px solid black;
+	width: 35px;
+	height: 35px;
+	margin-bottom: 8px;
+}
+.commentmain .commentpeople {
+	font-size: 14px;
+	color: black;
+}
+#personID, #personDate { /*�ٸ���� �Խù��� ���� ������ ����(������ �����ʿ� �ִ� ��)*/
+	margin-top: 20px;
+	margin-right: 10px;
+}
+#commentDate{
+	font-size: 14px;
+	color: #cccccc;
+}		
+#smallpro{
+	margin-right: 15px;
+}
+#userinfo{
+	margin-left: 30px;
+}
+#myname{
+	margin-left: 30px;
+	margin-bottom: 40px;
+}
+.commentN{
+	color:blue;
+}
+.row{
+	margin-top: 10px;
+}
+		
+/*��ư ȿ��*/
+.dropdown{
+			position:relative;
+			display: inline-block;
+		}
+.button{
+			padding:3px 3px;
+			font-size: 20px;
+			border-width: 0;
+			background: white;
+		}
+#drop-content a{
+			display:block;
+			font-size: 10px;
+			background: #dfdfdf;
+			color:black;
+			text-decoration: none;
+			padding: 10px 32px;
+			margin-top: 2px;
+		}
+		
+/* 게시물의 차단하기 드롭다운 */
+.dropdown-m{
+	float: right;
+	margin-top: 20px;
+	margin-right: 24px; 
+	display:inline-block;
+	position:relative;
+  }
+
+  .dropdown-m button{
+    border:none;
+    padding:8px 24px;
+    background-color: rgb(221, 221, 221);
+    color:white;
+    transition:.3s;
+    cursor:pointer;
+  }
+  
+  .dropdown-m:hover button{
+    background-color: none;
+	}
+	
+  .dropdown-m:hover{
+    background-color: rgb(221, 221, 221);
+  }
+  
+  .dropdown-m div{
+    background-color:#fff;
+    box-shadow:0 4px 8px rgba(0,0,0,0.2);
+    z-index:1;
+    visibility:hidden;
+    position:absolute;
+    min-width:100%;
+    opacity:0;
+    transition:.3s;
+  }
+  
+  .dropdown-m:hover div{
+    visibility:visible;
+    opacity:1;
+  }
+  
+  .dropdown-m div a{
+    display:block;
+    text-decoration:none;
+    padding:20px;
+    color:#000;
+    transition:.1s;
+    white-space:nowrap;
+  }
+  
+  .dropdown-m div a:hover{
+    background-color: rgb(221, 221, 221);
+    color:#fff;
+  }
+
+input[type=file]{
+	display:none;
+}
+
+.row{
+	margin-top:10px;
+}
+		
+.slider{
+	background-image:url("images/preview.png");
+	background-size:cover;
+	height:177px;
+	width:177px;	
+}
+
+td {
+ 	vertical-align: middle;
+}

@@ -1,0 +1,194 @@
+
+.container {
+	border: 2px solid gray;
+	border-radius: 5px;
+	margin: 5px;
+	align: center;
+}
+
+/* .container { */
+/*   padding-right: 15px; */
+/*   padding-left: 15px; */
+/*   margin-right: auto; */
+/*   margin-left: auto; */
+/* } */
+
+.container1 {
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.container-fluid {
+	border-radius: 40px;
+}
+
+nav .container-fluid {
+	border-radius: 0px;
+}
+
+h1 {
+	margin: 15px 0; /*위에서 50px 왼쪽부터 0px*/
+}
+.right {
+	margin-left: 75%;
+}
+
+.out {
+	width: 100%;
+	text-align: center;
+	margin-top: 80px;
+}
+
+.in {
+	display: inline-block;
+}
+
+#imagine {
+	margin: 15px 0px;
+}
+.postheader{
+	text-align: left;
+	color: gray;
+	margin-top: 14px;
+	margin-bottom: 2px;
+	font-size: 15px;
+}
+.font label{
+	color: black;
+	margin: 3px;
+	font-size: 15px;
+	padding-left: 40px;
+	padding-right: 10px;
+}
+#postcenter{
+	margin: 0 40px;
+	text-align: left;
+	font-size: 15px;
+}
+.container in img{
+	vertical-align: middle;
+}
+.dropbtn{
+	cursor: pointer;
+}
+.dropdown_button{
+	float: right;
+	margin-top: 16px; 
+	position: relative;
+	display: inline-block;
+}
+.dropdown-content{
+	display: none;
+	position:absolute;
+	background-color:#f9f9f9;
+	min-width:160px;
+	box-shadow:0 8px 16px 0 rgba(0,0,0,0,2);
+}
+.dropdown-content a{
+	color:black;
+	padding:12px 16px;
+	text-decoration:none;
+	display:block;
+}
+.dropdown-content:onclick{
+	display:block;
+}
+.dropdown-content a:hover{
+	background-color: #555; color:#fff
+} 
+ .dropdown:hover .dropdown-content{
+	display: block;
+} 
+
+/*프로필 사진 크기,위치 설정*/
+#wrapper{
+	margin: 60px 0px 0px 200px;
+	width: 100%;
+	text-align: left;
+	position: absolute;
+	top: 80px;
+}
+
+#wrapper img{
+	border: 5px solid skyblue;
+	border-radius: 50%;
+	width: 180px;
+	height: 180px;
+}
+/*작은 다른사람 프로필 사진(smallpro)*/
+#smallpro{
+	border: 1px solid skyblue;
+	border-radius: 50%;
+	width: 50px;
+	height: 50px;
+}
+/*좋아요, 댓글 아이콘*/
+.likecommentN{
+	top: 0px;
+	text-align: left;
+	margin: 0px;
+}
+.commentmain{
+	margin-top: 5px;
+	margin-bottom: 10px;
+	text-align: left;
+	font-size:14px;
+	color: #cccccc;
+}
+.commentmain .commentpeople img{ /*게시물 밑에 있는 사람이 쓴 댓글의 프로필사진*/
+	border-radius: 50%;
+	border: 1px solid black;
+	width: 35px;
+	height: 35px;
+	margin-bottom: 8px;
+}
+.commentmain .commentpeople {
+	font-size: 14px;
+	color: black;
+}
+#personID, #personDate { /*다른사람 게시물의 위에 나오는 정보(프로필 오른쪽에 있는 것)*/
+	margin-top: 20px;
+	margin-right: 10px;
+}
+#commentDate{
+	font-size: 14px;
+	color: #cccccc;
+}		
+#smallpro{
+	margin-right: 15px;
+}
+#userinfo{
+	margin-left: 30px;
+}
+#myname{
+	margin-left: 30px;
+	margin-bottom: 40px;
+}
+.commentN{
+	color:blue;
+}
+.row{
+	margin-top: 10px;
+}
+/*버튼 효과*/
+.dropdown{
+			position:relative;
+			display: inline-block;
+		}
+.button{
+			padding:3px 3px;
+			font-size: 20px;
+			border-width: 0;
+			background: white;
+		}
+#drop-content a{
+			display:block;
+			font-size: 10px;
+			background: #dfdfdf;
+			color:black;
+			text-decoration: none;
+			padding: 10px 32px;
+			margin-top: 2px;
+		}

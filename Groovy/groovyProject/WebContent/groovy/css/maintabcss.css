@@ -1,0 +1,40 @@
+@charset "EUC-KR";
+.tab_content{
+			margin-top:140px;
+			margin-left:50px;
+		}
+		
+		table{
+			margin-bottom: 100px;
+			font-size: 23px;
+		}
+		input[type="radio"] {display:none;}
+		input[type="radio"]+label {display:inline-block;
+		padding:20px;
+		color:#999;
+		font-size:20px;
+		cursor:pointer;
+		}
+		input[type="radio"]:checked + label{
+			color:#000;
+			font-size: 30px;
+		}
+		.conbox{
+		position: absolute;
+		left: 440px;
+		top: 50px;
+		width:700px;
+		font-size: 20px;
+		margin:0 auto;
+		display: none;
+		
+		}
+		#in {
+			font-size: 20px;
+			color: gray;
+		}
+
+		input[id="tab01"]:checked ~ .con1 {display:block;}
+		input[id="tab02"]:checked ~ .con2 {display:block;}
+		input[id="tab03"]:checked ~ .con3 {display:block;}
+		
